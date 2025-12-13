@@ -11,11 +11,9 @@ Medicine relies on biomarkers to support early diagnosis and disease monitoring.
 I created BioStat to:
 
 * Provide an accessible** way to analyze biomarker data
-* Support **any disease type**
+* Support **any disease/ cancer type**
 * Offer **clear statistical summaries and visualizations** 
 * Enable rapid exploration of patient-level trends
-
-This tool is intended for **exploratory data analysis and research support.** It is not a diagnostic or decision-making tool.
 
 ---
 
@@ -36,8 +34,7 @@ BioStat accepts datasets in **CSV (Comma-Separated Values)** format.
 
 * The dataset must contain **numerical biomarker values**
 * Non-numerical columns (e.g., patient IDs, labels, notes) are allowed
-* Each row typically represents a patient or sample
-* Each column represents a biomarker or metadata field
+* Each column should represent a biomarker or metadata field
 
 The dataset may be:
 
@@ -45,7 +42,7 @@ The dataset may be:
 * Partially cleaned
 * Raw (uncleaned)
 
-BioStat will automatically process numerical columns for analysis.
+BioStat will automatically process filter out non-numerical columns for analysis.
 
 ---
 
@@ -78,7 +75,7 @@ Video tutorial:
 ## Key Features
 
 * Disease-agnostic biomarker analysis
-* CSV-based data ingestion
+* CSV-based data handling
 * Automatic numerical feature detection
 * Interactive statistical charts
 * Clean, clinician-friendly interface
