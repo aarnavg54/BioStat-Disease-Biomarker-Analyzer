@@ -2,6 +2,8 @@
 
 **BioStat** is a disease-agnostic, web-based biomarker analysis platform. It is designed to help clinicians, researchers, and healthcare professionals interpret biomarker datasets in an intuitive and visual way. The platform allows users to upload CSV files and generate statistical summaries, visualizations, and patient-level insights. 
 
+Video tutorial: 
+
 ---
 
 ## Purpose
@@ -63,12 +65,6 @@ Public datasets from platforms such as Kaggle can be used if they are in CSV for
 1. Open the BioStat web application in your browser: https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
 2. No account or login is required
 3. All analysis is performed live for fast interaction
-
----
-
-## How to Use BioStat (Step-by-Step)
-
-Video tutorial: 
 
 ---
 
