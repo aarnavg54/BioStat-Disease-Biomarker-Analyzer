@@ -2,7 +2,7 @@
 
 **BioStat** is a disease-agnostic, web-based biomarker analysis platform. It is designed to help clinicians, researchers, and healthcare professionals interpret biomarker datasets in an intuitive and visual way. The platform allows users to upload CSV files and generate statistical summaries, visualizations, and patient-level insights. 
 
-Video tutorial: 
+Video tutorial: https://www.youtube.com/watch?v=g0WEmUvmRmo
 
 ---
 
@@ -101,13 +101,6 @@ Deployment
 - GitHub Pages
 
 ---
-
-## License
-
-[Specify license here]
-
----
-
 ## Contact
 
 For questions, feedback, or contributions, please contact me at aarnavg54@gmail.com
