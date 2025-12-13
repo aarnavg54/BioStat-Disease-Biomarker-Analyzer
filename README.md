@@ -63,62 +63,15 @@ Public datasets from platforms such as Kaggle can be used if they are in CSV for
 
 ## How to Access BioStat
 
-1. Open the BioStat web application in your browser: 
+1. Open the BioStat web application in your browser: https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
 2. No account or login is required
-3. All analysis is performed client-side for fast interaction
+3. All analysis is performed live for fast interaction
 
 ---
 
 ## How to Use BioStat (Step-by-Step)
 
-### Step 1: Prepare Your Dataset
-
-* Download or create a CSV file containing biomarker data
-* Ensure biomarker values are numerical where possible
-* Save the file locally
-
-### Step 2: Upload Your CSV File
-
-* Click the **Upload Dataset** button
-* Select your CSV file from your computer
-* The application will automatically load and parse the data
-
-### Step 3: Explore Biomarker Statistics
-
-Once uploaded, BioStat automatically:
-
-* Identifies numerical biomarker columns
-* Computes summary statistics (mean, median, standard deviation, etc.)
-* Displays cohort-level insights
-
-### Step 4: Visualize the Data
-
-BioStat provides interactive visualizations, including:
-
-* Distribution plots for biomarkers
-* Comparative charts across biomarkers
-* Patient-level data exploration
-
-These visuals are designed to be intuitive and clinically interpretable.
-
-### Step 5: Export Results
-
-* Users can export analyzed data and visual summaries
-* Exported files can be used for reports, presentations, or further analysis
-
----
-
-## Visual Walkthrough
-
-A visual, step-by-step walkthrough is provided within the application.
-
-This includes:
-
-1. Dataset upload demonstration
-2. Automated analysis overview
-3. Visualization interpretation guide
-
-A full video tutorial will be added in future updates.
+Video tutorial: 
 
 ---
 
@@ -133,7 +86,7 @@ A full video tutorial will be added in future updates.
 
 ---
 
-## Limitations & Disclaimer
+## Disclaimer
 
 * BioStat is intended for **research and exploratory use only**
 * It does **not provide medical diagnoses or treatment recommendations**
@@ -141,14 +94,18 @@ A full video tutorial will be added in future updates.
 
 ---
 
-## Future Enhancements
+## Tools & Technologies
+Frontend
+- HTML5: Semantic structure and layout
+- CSS3: Responsive styling and layout management
+- JavaScript (Vanilla): Core application logic and interactivity
 
-Planned improvements include:
+Data Processing & Visualization
+- PapaParse – Client-side CSV parsing and data ingestion
+- Chart.js – Interactive statistical charts and visualizations
 
-* Video tutorials and guided demos
-* Additional visualization options
-* Advanced statistical comparisons
-* Enhanced dataset preprocessing tools
+Deployment
+- GitHub Pages
 
 ---
 
@@ -160,4 +117,4 @@ Planned improvements include:
 
 ## Contact
 
-For questions, feedback, or contributions, please contact the project maintainer or open an issue in the repository.
+For questions, feedback, or contributions, please contact me at aarnavg54@gmail.com
