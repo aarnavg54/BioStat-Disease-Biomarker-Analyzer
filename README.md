@@ -79,6 +79,8 @@ Public datasets from platforms such as Kaggle can be used if they are in CSV for
 * Clean, clinician-friendly interface
 * No programming required
 
+![Alt text](Assets/Home_page.png)
+
 ---
 
 ## Disclaimer
