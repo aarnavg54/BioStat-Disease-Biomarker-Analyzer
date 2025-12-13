@@ -6,25 +6,25 @@
 
 ## Purpose
 
-Modern medicine increasingly relies on biomarkers to support early diagnosis, risk stratification, and disease monitoring. However, many clinicians and researchers lack access to lightweight tools that allow them to quickly explore biomarker datasets without complex pipelines or coding workflows.
+Medicine relies on biomarkers to support early diagnosis and disease monitoring. However, many clinicians lack access to tools that allow them to quickly explore biomarker data without coding experience or complex workflows.
 
-BioStat was created to:
+I created BioStat to:
 
-* Provide a **feasible and accessible** way to analyze biomarker data
-* Support **any disease domain** (disease-agnostic by design)
-* Offer **clear statistical summaries and visualizations** suitable for clinical and research interpretation
-* Enable rapid exploration of patient-level and cohort-level trends
+* Provide an accessible** way to analyze biomarker data
+* Support **any disease type**
+* Offer **clear statistical summaries and visualizations** 
+* Enable rapid exploration of patient-level trends
 
-BioStat is intended for **exploratory analysis and research support** and is not a diagnostic or clinical decision-making tool.
+This tool is intended for **exploratory data analysis and research support.** It is not a diagnostic or decision-making tool.
 
 ---
 
 ## Who This App Is For
 
-* Clinicians exploring patient biomarker trends
-* Researchers analyzing biomarker datasets across diseases
+* Clinicians exploring biomarker trends
+* Researchers analyzing biomarker datasets 
 * Students and trainees learning about biomarker-based analysis
-* Anyone working with structured biomarker data in CSV format
+* Anyone working with structured biomarker data in CSV 
 
 ---
 
@@ -51,19 +51,19 @@ BioStat will automatically process numerical columns for analysis.
 
 ## Example Public Datasets
 
-BioStat is compatible with many publicly available biomarker datasets, including:
+BioStat is compatible with many publicly available biomarker datasets for numerous diseases, including:
 
-* Ovarian cancer biomarker datasets
-* Parkinson’s disease biomarker datasets
-* Pancreatic cancer urinary biomarker datasets
+* Ovarian cancer: https://www.kaggle.com/datasets/saurabhshahane/predict-ovarian-cancer?resource=download 
+* Parkinson’s disease: https://www.kaggle.com/datasets/ruslankl/early-biomarkers-of-parkinsons-disease 
+* Pancreatic cancer: https://www.kaggle.com/datasets/johnjdavisiv/urinary-biomarkers-for-pancreatic-cancer
 
-Public datasets from platforms such as Kaggle can be used directly after download, provided they are in CSV format.
+Public datasets from platforms such as Kaggle can be used if they are in CSV format.
 
 ---
 
 ## How to Access BioStat
 
-1. Open the BioStat web application in your browser
+1. Open the BioStat web application in your browser: 
 2. No account or login is required
 3. All analysis is performed client-side for fast interaction
 
