@@ -1,1 +1,183 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BioStat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- App JS -->
+    <script defer src="js/state.js"></script>
+    <script defer src="js/ui.js"></script>
+    <script defer src="js/statistics.js"></script>
+    <script defer src="js/csvLoader.js"></script>
+    <script defer src="js/analysis.js"></script>
+    <script defer src="js/webapp.js"></script>
+
+    <!-- App CSS (UNCHANGED) -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <div class="header-icon">
+            <i class="fas fa-dna"></i>
+        </div>
+        <div class="header-text">
+            <h1>BioStat</h1>
+            <p>A disease-agnostic biomarker analysis platform</p>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <!-- Dataset Panel -->
+            <div class="panel">
+                <h2 class="section-title">
+                    <i class="fas fa-database"></i> Dataset
+                </h2>
+
+                <div class="file-upload">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Click to upload CSV file</p>
+                    <input type="file" id="csvInput" accept=".csv">
+                </div>
+
+                <div id="statusText" class="status-box">
+                    No dataset loaded
+                </div>
+            </div>
+
+            <!-- Biomarker Panel -->
+            <div class="panel">
+                <h2 class="section-title">
+                    <i class="fas fa-microscope"></i> Biomarkers
+                </h2>
+
+                <div id="biomarkerList" class="biomarker-list"></div>
+
+                <div class="action-buttons">
+                    <button id="analyzeBtn" class="btn primary" disabled>
+                        <i class="fas fa-chart-bar"></i>
+                        Analyze Selected
+                    </button>
+
+                    <button id="summaryBtn" class="btn secondary" disabled>
+                        <i class="fas fa-clipboard-list"></i>
+                        Dataset Summary
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Main Content -->
+        <div style="flex:1">
+
+            <!-- Welcome View -->
+            <div id="welcomeView" class="panel view active">
+                <h2 class="section-title">
+                    <i class="fas fa-heartbeat"></i>
+                    Welcome to BioStat
+                </h2>
+
+                <p>
+                    BioStat helps researchers explore and analyze disease biomarker datasets
+                    through fast statistical summaries and interactive visualizations.
+                </p>
+
+                <ol>
+                    <li><strong>Upload your CSV dataset</strong></li>
+                    <li><strong>Select biomarkers of interest</strong></li>
+                    <li><strong>Generate statistical insights</strong></li>
+                </ol>
+
+                <!-- Decorative Feature Cards -->
+                <div class="stats-grid welcome-features">
+
+                    <div class="stat-card feature-card">
+                        <i class="fas fa-users"></i>
+                        <strong>Patient Analysis</strong>
+                    </div>
+
+                    <div class="stat-card feature-card">
+                        <i class="fas fa-chart-line"></i>
+                        <strong>Statistical Charts</strong>
+                    </div>
+
+                    <div class="stat-card feature-card">
+                        <i class="fas fa-file-export"></i>
+                        <strong>Export Results</strong>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Analysis View -->
+            <div id="analysisView" class="view">
+                <div class="panel">
+
+                    <h2 id="analysisTitle" class="section-title"></h2>
+                    <p id="analysisSubtitle"></p>
+
+                    <div id="statsGrid" class="stats-grid"></div>
+
+                    <div class="chart-container">
+                        <h3>
+                            <i class="fas fa-chart-line"></i>
+                            Distribution Chart
+                        </h3>
+                        <canvas id="distChart"></canvas>
+                    </div>
+
+                    <div style="display:flex; gap:15px; margin-top:25px;">
+                        <button id="saveBtn" class="btn success">
+                            <i class="fas fa-file-export"></i>
+                            Export Results
+                        </button>
+
+                        <button class="btn secondary" onclick="showView('welcomeView')">
+                            <i class="fas fa-arrow-left"></i>
+                            Back to Dashboard
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Summary View -->
+            <div id="summaryView" class="view">
+                <div class="panel">
+
+                    <h2 class="section-title">
+                        <i class="fas fa-clipboard-check"></i>
+                        Dataset Summary
+                    </h2>
+
+                    <div id="summaryStats" class="stats-grid"></div>
+
+                    <button class="btn secondary" onclick="showView('welcomeView')">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Dashboard
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
