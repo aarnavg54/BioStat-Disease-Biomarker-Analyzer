@@ -112,12 +112,27 @@ https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
 
 No installation, account, or configuration is required.
 
-Option 2: Run Locally 
+Option 2: Run Locally
 
-- Clone the repository: git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git
-- Navigate to the project directory: cd BioStat-Disease-Biomarker-Analyzer
-- Open index.html in a modern web browser (Chrome, Edge, or Firefox recommended): python -m http.server
-- Then open http://localhost:8000 in your browser.
+Clone the repository:
+```bash
+git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd BioStat-Disease-Biomarker-Analyzer
+Open index.html in a modern web browser.
+
+Optional: Run a local server for best performance:
+
+bash
+Copy code
+python -m http.server
+Then open:
+http://localhost:8000
+
+
 
 ---
 ## Contact
