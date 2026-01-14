@@ -124,9 +124,7 @@ Copy code
 ```bash
 cd BioStat-Disease-Biomarker-Analyzer
 ```
-Open index.html in a modern web browser.
-
-Optional: Run a local server for best performance:
+Open ```bash index.html``` in a modern web browser.
 
 Copy code
 ```bash
