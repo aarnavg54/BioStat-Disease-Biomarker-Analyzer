@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="Assets/BioStat_logo.png" alt="BioStat Logo" width="300">
-</p>
+<p align="center"> <img src="Assets/BioStat_logo.png" alt="BioStat Logo" width="300"> </p>
 
 **BioStat 2.0** is a disease-agnostic, web-based biomarker analysis platform. It is designed to help clinicians, researchers, and healthcare professionals interpret biomarker datasets in an intuitive and visual way. The platform allows users to upload CSV files and generate statistical summaries, visualizations, and patient-level insights. 
 
@@ -101,9 +99,41 @@ Data Processing & Visualization
 - PapaParse – Client-side CSV parsing and data ingestion
 - Chart.js – Interactive statistical charts and visualizations
 
-Deployment
-- GitHub Pages
+## Setup & Run Instructions
 
+# Option 1: Run Online (Recommended)
+
+- Open the live application in your browser:
+https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
+
+- Upload a CSV file containing biomarker data
+
+- Explore statistical summaries, visualizations, risk assessment, and multi-dataset comparisons
+
+No installation, account, or configuration is required.
+
+# Option 2: Run Locally
+
+Clone the repository:
+```bash
+git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git
+```
+Navigate to the project directory:
+
+Copy code
+```bash
+cd BioStat-Disease-Biomarker-Analyzer
+```
+Open ```bash index.html``` in a modern web browser.
+
+Copy code
+```bash
+python -m http.server
+```
+Then open:
+```bash
+http://localhost:8000
+```
 ---
 ## Contact
 
