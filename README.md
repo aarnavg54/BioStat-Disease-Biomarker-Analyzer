@@ -2,9 +2,9 @@
   <img src="Assets/BioStat_logo.png" alt="BioStat Logo" width="300">
 </p>
 
-**BioStat** is a disease-agnostic, web-based biomarker analysis platform. It is designed to help clinicians, researchers, and healthcare professionals interpret biomarker datasets in an intuitive and visual way. The platform allows users to upload CSV files and generate statistical summaries, visualizations, and patient-level insights. 
+**BioStat 2.0** is a disease-agnostic, web-based biomarker analysis platform. It is designed to help clinicians, researchers, and healthcare professionals interpret biomarker datasets in an intuitive and visual way. The platform allows users to upload CSV files and generate statistical summaries, visualizations, and patient-level insights. 
 
-Video tutorial: https://www.youtube.com/watch?v=g0WEmUvmRmo
+Video tutorial: https://www.youtube.com/watch?v=yUdVqCBfiv8
 
 ---
 
@@ -14,7 +14,7 @@ Medicine relies on biomarkers to support early diagnosis and disease monitoring.
 
 I created BioStat to:
 
-* Provide an accessible** way to analyze biomarker data
+* Provide an accessible way to analyze biomarker data
 * Support **any disease/ cancer type**
 * Offer **clear statistical summaries and visualizations** 
 * Enable rapid exploration of patient-level trends
@@ -46,7 +46,7 @@ The dataset may be:
 * Partially cleaned
 * Raw (uncleaned)
 
-BioStat will automatically process filter out non-numerical columns for analysis.
+BioStat will automatically process and filter out non-numerical columns for analysis.
 
 ---
 
