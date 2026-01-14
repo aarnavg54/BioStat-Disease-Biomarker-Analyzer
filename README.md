@@ -116,14 +116,15 @@ Option 2: Run Locally
 
 Clone the repository:
 ```bash
-git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git```
-
+git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git
+```
 Navigate to the project directory:
 
 ```bash
 Copy code
 cd BioStat-Disease-Biomarker-Analyzer
-Open index.html in a modern web browser.```
+Open index.html in a modern web browser.
+```
 
 Optional: Run a local server for best performance:
 
@@ -132,9 +133,7 @@ Copy code
 python -m http.server
 Then open:
 http://localhost:8000```
-
-
-
+```
 ---
 ## Contact
 
