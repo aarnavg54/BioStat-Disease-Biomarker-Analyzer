@@ -101,7 +101,7 @@ Data Processing & Visualization
 
 ## Setup & Run Instructions
 
-Option 1: Run Online (Recommended)
+# Option 1: Run Online (Recommended)
 
 - Open the live application in your browser:
 https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
@@ -112,7 +112,7 @@ https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
 
 No installation, account, or configuration is required.
 
-Option 2: Run Locally
+# Option 2: Run Locally
 
 Clone the repository:
 ```bash
@@ -120,19 +120,21 @@ git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git
 ```
 Navigate to the project directory:
 
-```bash
 Copy code
+```bash
 cd BioStat-Disease-Biomarker-Analyzer
-Open index.html in a modern web browser.
 ```
+Open index.html in a modern web browser.
 
 Optional: Run a local server for best performance:
 
-```bash
 Copy code
+```bash
 python -m http.server
+```
 Then open:
-http://localhost:8000```
+```bash
+http://localhost:8000
 ```
 ---
 ## Contact
