@@ -99,8 +99,25 @@ Data Processing & Visualization
 - PapaParse – Client-side CSV parsing and data ingestion
 - Chart.js – Interactive statistical charts and visualizations
 
-Deployment
-- GitHub Pages
+## Setup & Run Instructions
+
+Option 1: Run Online (Recommended)
+
+- Open the live application in your browser:
+https://aarnavg54.github.io/BioStat-Disease-Biomarker-Analyzer/
+
+- Upload a CSV file containing biomarker data
+
+- Explore statistical summaries, visualizations, risk assessment, and multi-dataset comparisons
+
+No installation, account, or configuration is required.
+
+Option 2: Run Locally 
+
+- Clone the repository: git clone https://github.com/aarnavg54/BioStat-Disease-Biomarker-Analyzer.git
+- Navigate to the project directory: cd BioStat-Disease-Biomarker-Analyzer
+- Open index.html in a modern web browser (Chrome, Edge, or Firefox recommended): python -m http.server
+- Then open http://localhost:8000 in your browser.
 
 ---
 ## Contact
