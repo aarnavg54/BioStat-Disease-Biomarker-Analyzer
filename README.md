@@ -14,7 +14,7 @@ Medicine relies on biomarkers to support early diagnosis and disease monitoring.
 
 I created BioStat to:
 
-* Provide an accessible** way to analyze biomarker data
+* Provide an accessible way to analyze biomarker data
 * Support **any disease/ cancer type**
 * Offer **clear statistical summaries and visualizations** 
 * Enable rapid exploration of patient-level trends
